@@ -14,3 +14,19 @@
 Route::get('/', function () {
     return view('layouts/layout');
 });
+
+Route::get('/about', function(){
+    return view('about');
+});
+
+Route::get('/work', function(){
+    return view('work');
+});
+
+Route::get('/blog', function(){
+    return view('blog');
+});
+
+Route::get('/contact', function(){
+    return view('contact');
+});
