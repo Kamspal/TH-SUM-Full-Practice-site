@@ -1,7 +1,6 @@
-
 @extends('layouts.layout')
 @section('content')
-<section id="blog" style="height: 27560px">
+<section id="blog1" style="height: 24500px">
     <div class="container1">
         <div class="left2">
             <a class="blog" href="/blog">Blog</a>
@@ -109,68 +108,19 @@
                     </div>
                 </div>
             </div>
-        <div class="right2">
-            <div class="post">
-                <div class="bloghead">
-                    Nov 7/14
+
+            <div class="right2">
+                <div class="blogTopic">
+                    <h2>
+                        Projects Archives
+                    </h2>
                 </div>
-                    <div class="btitle">
-                        <a href="blog/bc-sports-hall-of-fame">BC Sports Hall of Fame: 1954 British Empire and Commonwealth Games</a>
-                    </div>
-                        <div class="entry">
-                            <p>
-                            The BC Sports Hall of Fame educates and entertains through its programs and collections by telling stories of outstanding achievements in sport in British Columbia. TH= SUM, in partnership with Kei Space, worked together with the BC Sports Hall of Fame on their signature exhibit celebrating the 60th anniversary of the 1954 British Empire and Commonwealth Games.
-                            </p>
-                            <p>
-                            TH= SUM was responsible for the creative direction and design of exhibit graphics and strived to retain the nostalgia of the times while giving it a modern feel. Colour and imagery were inspired by the original graphics created for the Games and media and artifacts combined within the exhibit brought the Games back to life for past athletes of the 1954 Games and visitors alike.
-                            </p>
-                            <p>
-                                <a href="">Video: Behind the scenes of the B.C. Sports Hall of Fame’s 1954 retrospective by The Province</a>
-                            </p>
-                            <p>
-                                <a href="/images/1_bcsports.jpg"><img src="/images/1_bcsports.jpg" alt=""></a>
-                            </p>
-                            <p>
-                                <a href="/images/2_bcsports.jpg"><img src="/images/2_bcsports.jpg" alt=""></a>
-                            </p>
-                            <p>
-                                <a href="/images/3_bcsports.jpg"><img src="/images/3_bcsports.jpg" alt=""></a>
-                            </p>
-                            <p>
-                                <a href="/images/4_bcsports.jpg"><img src="/images/4_bcsports.jpg" alt=""></a>
-                            </p>
-                            <p>
-                                <a href="/images/5_bcsports.jpg"><img src="/images/5_bcsports.jpg" alt=""></a>
-                            </p>
-                            <p>
-                                <a href="/images/6_bcsports.jpg"><img src="/images/6_bcsports.jpg" alt=""></a>
-                            </p>
-                            <p>
-                                <a href="/images/7_bcsports.jpg"><img src="/images/7_bcsports.jpg" alt=""></a>
-                            </p>
-                            <p>
-                                <a href="/images/8_bcsports.jpg"><img src="/images/8_bcsports.jpg" alt=""></a>
-                            </p>
-                            <p>
-                                <a href="/images/9_bcsports.jpg"><img src="/images/9_bcsports.jpg" alt=""></a>
-                            </p>
-                            <p>
-                                <a href="/images/10_bcsports.jpg"><img src="/images/10_bcsports.jpg" alt=""></a>
-                            </p>
-                            <p>
-                                <a href="/images/11_bcsports.jpg"><img src="/images/11_bcsports.jpg" alt=""></a>
-                            </p>
-                        </div>
-                            <h5 class="data">
-                                Posted by val | Posted in <a href="blog/category/news">News</a>
-                            </h5>
-            </div>
                 <div class="post post1">
                     <div class="bloghead">
                         Jun 9/14
                     </div>
                         <div class="btitle">
-                            <a href="blog/event-planning">Attendease: Event planning made easy</a>
+                            <a href="/blog/event-planning">Attendease: Event planning made easy</a>
                         </div>
                             <div class="entry">
                                 <p>
@@ -187,23 +137,23 @@
                                     <a href="">www.attendease.com</a>
                                 </p>
                                 <p>
-                                    <a href="/images/1_brand.jpg"><img src="/images/1_brand.jpg" alt=""></a>
+                                    <a href=""><img src="/images/1_brand.jpg" alt=""></a>
                                 </p>
                                 <p>
-                                    <a href="/images/1_attendease.jpg"><img src="/images/1_attendease.jpg" alt=""></a>
+                                    <a href=""><img src="/images/1_attendease.jpg" alt=""></a>
                                 </p>
                                 <p>
-                                    <a href="/images/2_attendease.jpg"><img src="/images/2_attendease.jpg" alt=""></a>
+                                    <a href=""><img src="/images/2_attendease.jpg" alt=""></a>
                                 </p>
                                 <p>
-                                    <a href="/images/3_attendease.jpg"><img src="/images/3_attendease.jpg" alt=""></a>
+                                    <a href=""><img src="/images/3_attendease.jpg" alt=""></a>
                                 </p>
                                 <p>
-                                    <a href="/images/4_attendease.jpg"><img src="/images/4_attendease.jpg" alt=""></a>
+                                    <a href=""><img src="/images/4_attendease.jpg" alt=""></a>
                                 </p>
                             </div>
                                 <h5 class="data">
-                                    Posted by val | Posted in <a href="blog/category/projects">Projects</a>
+                                    Posted by val | Posted in <a href="/blog/category/projects">Projects</a>
                                 </h5>
                 </div>
                     <div class="post post2">
@@ -211,7 +161,7 @@
                             Nov 7/13
                         </div>
                             <div class="btitle">
-                                <a href="blog/flight-path-park">Larry Berg – Flight Path Park</a>
+                                <a href="/blog/flight-path-park">Larry Berg – Flight Path Park</a>
                             </div>
                                 <div class="entry">
                                     <p>
@@ -230,26 +180,26 @@
                                     <p>
                                         <strong>Rendering</strong>
                                         <br>
-                                        <a href="/images/1_render.jpg"><img src="/images/1_render.jpg" alt=""></a>
+                                        <a href=""><img src="/images/1_render.jpg" alt=""></a>
                                     </p>
                                     <p>
                                     <strong>Final Build</strong>
                                         <br>
-                                        <a href="/images/2_real.jpg"><img src="/images/2_real.jpg" alt=""></a>
+                                        <a href=""><img src="/images/2_real.jpg" alt=""></a>
                                     </p>
                                     <p>
-                                        <a href="/images/3_real.jpg"><img src="/images/3_real.jpg" alt=""></a>
+                                        <a href=""><img src="/images/3_real.jpg" alt=""></a>
                                     </p>
                                     <p>
-                                        <a href="/images/4_real.jpg"><img src="/images/4_real.jpg" alt=""></a>
+                                        <a href=""><img src="/images/4_real.jpg" alt=""></a>
                                     </p>
                                     <p>
-                                        <a href="/images/6_real.jpg"><img src="/images/6_real.jpg" alt=""></a>
+                                        <a href=""><img src="/images/6_real.jpg" alt=""></a>
                                     </p>
                                 </div>
                                     <h5 class="data">
-                                        Posted by val | Posted in <a href="blog/category/news">News</a>,
-                                    <a href="blog/category/projects">Projects</a>
+                                        Posted by val | Posted in <a href="/blog/category/news">News</a>,
+                                    <a href="/blog/category/projects">Projects</a>
                                     </h5>
                     </div>
                     <div class="post post3">
@@ -257,7 +207,7 @@
                             April 4/13
                         </div>
                             <div class="btitle">
-                                <a href="blog/jukepop-serials">JukePop Serials: For lovers of genre fiction</a>
+                                <a href="/blog/jukepop-serials">JukePop Serials: For lovers of genre fiction</a>
                             </div>
                                 <div class="entry">
                                     <p>
@@ -274,23 +224,23 @@
                                     <br>
                                     </p>
                                     <p>
-                                        <a href="/images/jukepop_logo.jpg"><img src="/images/jukepop_logo.jpg" alt=""></a>
+                                        <a href=""><img src="/images/jukepop_logo.jpg" alt=""></a>
                                     </p>
                                     <p>
                                         <br>
                                     </p>
                                     <p>
-                                        <a href="/images/jukepop5.jpg"><img src="/images/jukepop5.jpg" alt=""></a>
+                                        <a href=""><img src="/images/jukepop5.jpg" alt=""></a>
                                     </p>
                                     <p>
-                                        <a href="/images/jukepop6.jpg"><img src="/images/jukepop6.jpg" alt=""></a>
+                                        <a href=""><img src="/images/jukepop6.jpg" alt=""></a>
                                     </p>
                                     <p>
-                                        <a href="/images/jukepop7.jpg"><img src="/images/jukepop7.jpg" alt=""></a>
+                                        <a href=""><img src="/images/jukepop7.jpg" alt=""></a>
                                     </p>
                                 </div>
                                     <h5 class="data">
-                                        Posted by val | Posted in <a href="blog/category/projects">Projects</a>
+                                        Posted by val | Posted in <a href="/blog/category/projects">Projects</a>
                                     </h5>
                     </div>
                     <div class="post post4">
@@ -298,7 +248,7 @@
                             Oct 5/12
                         </div>
                             <div class="btitle">
-                                <a href="blog/hasting-crossing-BIA">Hastings Crossing BIA website goes LIVE</a>
+                                <a href="/blog/hasting-crossing-BIA">Hastings Crossing BIA website goes LIVE</a>
                             </div>
                                 <div class="entry">
                                     <p>
@@ -322,7 +272,7 @@
                                     <br>
                                     </p>
                                     <p>
-                                        <a href="/images/a_logo.jpg"><img src="/images/a_logo.jpg" alt=""></a>
+                                        <a href=""><img src="/images/a_logo.jpg" alt=""></a>
                                     </p>
                                     <p>
                                     <br>
@@ -333,92 +283,28 @@
                                     <br>
                                     </p>
                                     <p>
-                                        <a href="/images/b1.jpg"><img src="/images/b1.jpg" alt=""></a>
+                                        <a href=""><img src="/images/b1.jpg" alt=""></a>
                                     </p>
                                     <p>
-                                        <a href="/images/c1.jpg"><img src="/images/c1.jpg" alt=""></a>
+                                        <a href=""><img src="/images/c1.jpg" alt=""></a>
                                     </p>
                                     <p>
-                                        <a href="/images/d1.jpg"><img src="/images/d1.jpg" alt=""></a>
+                                        <a href=""><img src="/images/d1.jpg" alt=""></a>
                                     </p>
                                     <p>
-                                        <a href="/images/e1.jpg"><img src="/images/e1.jpg" alt=""></a>
+                                        <a href=""><img src="/images/e1.jpg" alt=""></a>
                                     </p>
                                 </div>
                                     <h5 class="data">
-                                        Posted by val | Posted in <a href="blog/category/projects">Projects</a>
+                                        Posted by val | Posted in <a href="/blog/category/projects">Projects</a>
                                     </h5>
                     </div>
-                    <div class="post post5">
-                    <div class="bloghead">
-                        Jul 13/12
-                    </div>
-                        <div class="btitle">
-                            <a href="blog/latest-gifts">Latest gifts from Quarterly.co</a>
-                        </div>
-                            <div class="entry">
-                                <p>
-                                A short while ago we discovered
-                                <a href="">Quarterly.co</a>
-                                — a website where you can subscribe to your favorite design heroes and receive themed, mystery gifts mailed to you every 3 months. We started off with Tina Roth Eisenberg (Swiss Miss) and Josh Rubin & Evan Orensten (Cool Hunting). Here’s what we’ve received so far:
-                                    <br>
-                                    <br>
-                                    <br>
-                                </p>
-                                <p>
-                                    <strong>Sexy Caran D’Ache Red Metal Pen and Stick-Up Weekly Calendar</strong>
-                                </p>
-                                <p>
-                                    <a href="/images/2_swiss_miss.jpg"><img src="/images/2_swiss_miss.jpg" alt=""></a>
-                                </p>
-                                <p>
-                                    <a href="/images/pen2.png"><img src="/images/pen2.png" alt=""></a>
-                                </p>
-                                <p>
-                                    <a href="/images/1_swiss_miss.jpg"><img src="/images/1_swiss_miss.jpg" alt=""></a>
-                                </p>
-                                <p>
-                                    <br>
-                                    <br>
-                                    <br>
-                                    <br>
-                                </p>
-                                <p>
-                                    <strong>Crania Anatomica created exclusively for Quarterly.co by Chicago sculptor Joshua Harker</strong>
-                                </p>
-                                <p>
-                                    <a href="/images/3_skull.jpg"><img src="/images/3_skull.jpg" alt=""></a>
-                                </p>
-                                <p>
-                                    <a href="/images/4_skull.jpg"><img src="/images/4_skull.jpg" alt=""></a>
-                                </p>
-                                <p>
-                                    <br>
-                                    <br>
-                                    <br>
-                                    <br>
-                                </p>
-                                <p>
-                                    <strong> Bucky Balls (moldable magnetic beads) for creative brain breaks </strong>
-                                </p>
-                                <p>
-                                    <a href="/images/6_buckyballs.jpg"><img src="/images/6_buckyballs.jpg" alt=""></a>
-                                </p>
-                                <p>
-                                    <a href="/images/8_buckyballs.jpg"><img src="/images/8_buckyballs.jpg" alt=""></a>
-                                </p>
-                            </div>
-                                <h5 class="data">
-                                    Posted by val | Posted in <a href="blog/category/news">News</a>,
-                                    <a href="blog/category/stuff_we_like">Stuff We Like</a>
-                                </h5>
-                </div>
-                <div class="post post6">
+                    <div class="post post6">
                     <div class="bloghead">
                         Jan 17/12
                     </div>
                         <div class="btitle">
-                            <a href="blog/icebreaker-merino-wool">Icebreaker Merino Wool: Staff Retail Site</a>
+                            <a href="/blog/icebreaker-merino-wool">Icebreaker Merino Wool: Staff Retail Site</a>
                         </div>
                             <div class="entry">
                                 <p>
@@ -428,15 +314,15 @@
                                 The Sum was contacted by Icebreaker’s Vancouver headquarters to help re-design their current staff retail home page and update the visuals within the site. The objective: Design a home page with a clear navigational direction, which would either encourage new staff to take an online training course or guide trained staff into their retail section where they could find great deals and promotions.
                                 </p>
                                 <p>
-                                    <a href="/images/4_icebreaker1.jpg"><img src="/images/4_icebreaker1.jpg" alt=""></a>
+                                    <a href=""><img src="/images/4_icebreaker1.jpg" alt=""></a>
                                 </p>
                                 <p>
-                                    <a href="/images/4_icebreaker2.jpg"><img src="/images/4_icebreaker2.jpg" alt=""></a>
+                                    <a href=""><img src="/images/4_icebreaker2.jpg" alt=""></a>
                                 </p>
                             </div>
                                 <h5 class="data">
-                                    Posted by val | Posted in <a href="blog/category/news">News</a>,
-                                    <a href="blog/category/projects">Projects</a>
+                                    Posted by val | Posted in <a href="/blog/category/news">News</a>,
+                                    <a href="/blog/category/projects">Projects</a>
                                 </h5>
                 </div>
                 <div class="post post7">
@@ -444,7 +330,7 @@
                         Dec 22/11
                     </div>
                         <div class="btitle">
-                            <a href="blog/spencer-welch-vocal-studio">Spencer Welch Vocal Studio Gets a Fresh, New Look</a>
+                            <a href="/blog/spencer-welch-vocal-studio">Spencer Welch Vocal Studio Gets a Fresh, New Look</a>
                         </div>
                             <div class="entry">
                                 <p>
@@ -455,15 +341,15 @@
                                 <a href="">Click here</a> to check it out!
                                 </p>
                                 <p>
-                                    <a href="/images/3_S1.jpg"><img src="/images/3_S1.jpg" alt=""></a>
+                                    <a href=""><img src="/images/3_S1.jpg" alt=""></a>
                                 </p>
                                 <p>
-                                    <a href="/images/3_S2.jpg"><img src="/images/3_S2.jpg" alt=""></a>
+                                    <a href=""><img src="/images/3_S2.jpg" alt=""></a>
                                 </p>
                             </div>
                                 <h5 class="data">
-                                    Posted by val | Posted in <a href="blog/category/news">News</a>,
-                                    <a href="blog/category/projects">Projects</a>
+                                    Posted by val | Posted in <a href="/blog/category/news">News</a>,
+                                    <a href="/blog/category/projects">Projects</a>
                                 </h5>
                 </div>
                 <div class="post post8">
@@ -471,7 +357,7 @@
                         Oct 28/11
                     </div>
                         <div class="btitle">
-                            <a href="blog/dans-plan">Dan’s Plan: Custom Web Illustrations</a>
+                            <a href="/blog/dans-plan">Dan’s Plan: Custom Web Illustrations</a>
                         </div>
                             <div class="entry">
                                 <p>
@@ -480,15 +366,15 @@
                                 for yourself and give it a try … it’s free!
                                 </p>
                                 <p>
-                                    <a href="/images/plan1.jpg"><img src="/images/plan1.jpg" alt=""></a>
+                                    <a href=""><img src="/images/plan1.jpg" alt=""></a>
                                 </p>
                                 <p>
-                                    <a href="/images/plan2.jpg"><img src="/images/plan2.jpg" alt=""></a>
+                                    <a href=""><img src="/images/plan2.jpg" alt=""></a>
                                 </p>
                             </div>
                                 <h5 class="data">
-                                    Posted by val | Posted in <a href="blog/category/news">News</a>,
-                                    <a href="blog/category/projects">Projects</a>
+                                    Posted by val | Posted in <a href="/blog/category/news">News</a>,
+                                    <a href="/blog/category/projects">Projects</a>
                                 </h5>
                 </div>
                 <div class="post post9">
@@ -496,7 +382,7 @@
                         Oct 2/11
                     </div>
                         <div class="btitle">
-                            <a href="blog/sonic-tonic">Sonic Tonic</a>
+                            <a href="/blog/sonic-tonic">Sonic Tonic</a>
                         </div>
                             <div class="entry">
                                 <p>
@@ -506,26 +392,111 @@
                                 Vancouver New Music has been one of our Dream Clients for the past couple of years and here is the latest poster and brochure design for their Sonic Tonic event. That’s all we hafta say.
                                 </p>
                                 <p>
-                                    <a href="/images/poster1.jpg"><img src="/images/poster1.jpg" alt=""></a>
+                                    <a href=""><img src="/images/poster1.jpg" alt=""></a>
                                 </p>
                                 <p>
-                                    <a href="/images/brochure.jpg"><img src="/images/brochure.jpg" alt=""></a>
+                                    <a href=""><img src="/images/brochure.jpg" alt=""></a>
                                 </p>
                                 <p>
-                                    <a href="/images/brochure_close.jpg"><img src="/images/brochure_close.jpg" alt=""></a>
+                                    <a href=""><img src="/images/brochure_close.jpg" alt=""></a>
                                 </p>
                             </div>
                                 <h5 class="data">
-                                    Posted by val | Posted in <a href="blog/category/news">News</a>,
-                                    <a href="blog/category/projects">Projects</a>
+                                    Posted by val | Posted in <a href="/blog/category/news">News</a>,
+                                    <a href="/blog/category/projects">Projects</a>
                                 </h5>
                 </div>
-                <div class="previous_post">
-                    <a href="blog/page2">« Older Entries</a>
+                <div class="post post11 post_112">
+                <div class="bloghead">
+                    Jul 31/11
                 </div>
-
-
-        </div>
+                    <div class="btitle">
+                        <a href="/blog/san-francisco-aquarium">San Francisco Aquarium of the Bay</a>
+                    </div>
+                        <div class="entry">
+                            <p>
+                            The new website for the San Francisco Aquarium of the Bay is up! 
+                            <a href="">Click here</a>
+                            to check it out.
+                            </p>
+                            <p>
+                            TH= SUM had the pleasure of working with 
+                                <a href="">The Spider</a>
+                                to help develop the creative direction for the aquarium’s new website. Our challenge was to update the design of the website in a family-friendly way while retaining key design elements from their previous website. Large amounts of content were organized in a way that showed a clear hierarchy and directed user experience.
+                            </p>
+                            <p>
+                            Great project and we look forward to visiting soon!
+                            </p>
+                            <p>&nbsp;</p>
+                            <p>
+                                <a href=""><img src="/images/aqua1.jpg" alt=""></a>
+                            </p>
+                            <p>
+                                <a href=""><img src="/images/aqua2.jpg" alt=""></a>
+                            </p>
+                        </div>
+                            <h5 class="data">
+                                Posted by val | Posted in <a href="/blog/category/news">News</a>,
+                                    <a href="/blog/category/projects">Projects</a>
+                            </h5>
+            </div>
+            <div class="post post12">
+                <div class="bloghead">
+                    Jul 24/11
+                </div>
+                    <div class="btitle">
+                        <a href="/blog/water-everywhere">Water water everywhere…</a>
+                    </div>
+                        <div class="entry">
+                            <p>
+                            After a year-long design process, the exterior signage for the Seymour-Capilano Water Filtration Plant (SCFP) has been installed!
+                            </p>
+                            <p>
+                            Working in partnership with Bliss Creative, Bufo Inc. and Artcraft Graphics, The Sum has been working with Metro Vancouver to develop and design interpretive graphics for its world-class water filtration plant. The objective: design beautiful graphics that complement the natural environment and educate the public about the plant and its sustainability goals (LEED Silver).
+                            </p>
+                            <p>
+                            The creative direction is a refreshing change from traditional approaches to park signage, and old water pipes were reused and retrofitted to create new graphic structures; visitors can even walk through a massive pipe as they enter the trail.
+                            </p>
+                            <p>
+                            We are currently working on interior signage for the plant and look forward to posting an update soon!
+                            </p>
+                            <p>&nbsp;</p>
+                            <p>Trial Entrance</p>
+                            <p>
+                                <a href=""><img src="/images/p1.jpg" alt=""></a>
+                            </p>
+                            <p>Entrance Graphic</p>
+                            <p>
+                                <a href=""><img src="/images/p2.jpg" alt=""></a>
+                            </p>
+                            <p>Other side of the water pipe with the filtration plant to the right</p>
+                            <p>
+                                <a href=""><img src="/images/p3.jpg" alt=""></a>
+                            </p>
+                            <p>Signage close-ups below</p>
+                            <p>
+                                <a href=""><img src="/images/p4.jpg" alt=""></a>
+                            </p>
+                            <p>
+                                <a href=""><img src="/images/p5.jpg" alt=""></a>
+                            </p>
+                            <p>
+                                <a href=""><img src="/images/p6.jpg" alt=""></a>
+                            </p>
+                            <p>
+                                <a href=""><img src="/images/p7.jpg" alt=""></a>
+                            </p>
+                            <p>
+                                <a href=""><img src="/images/p8.jpg" alt=""></a>
+                            </p>
+                        </div>
+                            <h5 class="data">
+                                Posted by val | Posted in <a href="/blog/category/news">News</a>,
+                                    <a href="/blog/category/projects">Projects</a>
+                            </h5>
+            </div>
+            </div>
     </div>
 </section>
+
 @endsection

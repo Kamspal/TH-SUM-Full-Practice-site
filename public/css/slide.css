@@ -91,9 +91,8 @@ Version: 1.0
 	padding-left: 28px;
 	cursor: pointer;
 	display: block;
-	width: 70px;
 	position: relative;
-	top: 4px;
+	top: 5px;
 }
 
 .tab a.open {background: url(img/bt_open.png) no-repeat left 0;}
@@ -133,12 +132,14 @@ Version: 1.0
 }
 
 #panel h3{
-	font-size: 21px;
-	margin: 0;
-	color: white;
-	padding-right: 0;
-	letter-spacing: 1px;
-	margin-top: 9px;
+	padding-left: 150px;
+    font-size: 21px;
+    margin: 0;
+    color: white;
+    padding-right: 0;
+    letter-spacing: 1px;
+    margin-top: 3px;
+    margin-left: -300px;
 }
 
 #panel p {
@@ -183,9 +184,9 @@ Version: 1.0
     background: #414141 !important;
     margin-right: 5px;
     margin-top: 4px;
-    width: 200px;
+    width: 210px;
     color: white !important;
-    height: 16px;
+    height: 27px;
 }
 
 *:focus {
@@ -202,7 +203,8 @@ Version: 1.0
 	color: #D7D6D6;
 	border: none;
 	cursor: pointer;
-	padding: 2px;
+	padding: 1px 0 0 0;
+	margin-top: 9px;
 }
 
 .formLabel {
@@ -214,7 +216,7 @@ Version: 1.0
 .paneltxt {
 	font-size: 11px;
 	text-align: left;
-	margin-left: 298px;
-	margin-top: 40px;
+	margin-left: 140px;
+	margin-top: 10px;
 }
 

@@ -1,7 +1,8 @@
 
 
-
-<section id="about">
+@extends('layouts.layout')
+@section('content')
+<section id="about" style="height: 650px">
     <div class="about-image">
         <img src="images/chrisAndVal.jpg" alt="">
     </div>
@@ -26,4 +27,5 @@
         </div>
 
 </section>
+@endsection
 

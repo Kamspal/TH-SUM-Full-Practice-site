@@ -1,22 +1,8 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN""http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" type="image/vnd.microsoft.icon" href="images/favicon.ico" />
-
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link rel="stylesheet" href="/css/new.css" type="text/css">
-    <link rel="stylesheet" href="css/font-awesome.css" type="text/css">
-    <link rel="stylesheet" href="/css/slide.css" type="text/css">
-	
-    
-    <title>TH = SUM</title>
-</head>
-<body>
 
 
-<section id="work">
+@extends('layouts.layout')
+@section('content')
+<section id="work" style="height:400px; margin-left:150px">
     <div class="main">
         <h3 class="click-to-open">
             <a class="hover" href=""><i class="fa fa-plus" data-toggle="collapse" href="#collapse1" class="collapsed" aria-expanded="false" aria-hidden="true"></i>01<strong>WEB</strong></a> 
@@ -463,64 +449,26 @@
     </div>
 </section>
 
+@push('post_scripts')
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
 
 
-
-
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-    <!-- <script src="js/jquery-1.3.2.min.js" type="text/javascript"></script> -->
-    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
-    <script src="js/slide.js" type="text/javascript"></script>
-    <!-- <script>
-         $(function() {
-            var offset = $(".logo").offset();
-            var topPadding = 15;
-            $(window).scroll(function() {
-                if ($(window).scrollTop() > offset.top) {
-                    $(".logo").stop().animate({
-                        marginTop: $(window).scrollTop() - offset.top + topPadding
-                    });
-                } else {
-                    $(".logo").stop().animate({
-                        marginTop: 0
-                    });
-                };
-            });
-        });
-    </script> -->
-
-    <script>
-        $(function(){
-
-            $('.nav-links a').click(function(){
-
-            $('.nav-links .active').removeClass('active'); // remove the class from the currently selected
-            $(this).addClass('active'); // add the class to the newly clicked link
-
-        });
-
-        });
-    </script>
-
-    <script>
+<script>
         $(document).ready(function(){
 
-            //Hide (Collapse) the toggle containers on load
-            $(".containers").hide(); 
-            //Switch the "Open" and "Close" state per click then slide up/down (depending on open/close state)
-            $(".click-to-open").click(function(){
-                $(this).find('i').toggleClass('fa-plus fa-minus')
-                $(this).toggleClass("active").next().slideToggle("slow");
-                
-                return false; //Prevent the browser jump to the link anchor
+                //Hide (Collapse) the toggle containers on load
+                $(".containers").hide(); 
+
+                //Switch the "Open" and "Close" state per click then slide up/down (depending on open/close state)
+                $(".click-to-open").click(function(){
+                    $(this).find('i').toggleClass('fa-plus fa-minus')
+                    $(this).toggleClass("active").next().slideToggle("slow")
+                    
+                    return false; //Prevent the browser jump to the link anchor
             });
 
-            });
+        });
     </script>
-
-    
-   
-</body>
-</html>
+@endpush
+@endsection
