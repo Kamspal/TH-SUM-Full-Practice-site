@@ -882,13 +882,6 @@ form p {
   text-transform: normal !important;
 }
 
-.label {
-  background: black no-repeat;
-  color: #ddd;
-  font-size: 12px;
-  padding: 5px 10px 4px;
-}
-
 input {
   width: 250px;
   height: 25px;

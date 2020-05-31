@@ -2,7 +2,7 @@
 
 @extends('layouts.layout')
 @section('content')
-<section id="work" style="height:400px; margin-left:150px">
+<section id="work" style="margin-left:150px">
     <div class="main">
         <h3 class="click-to-open">
             <a class="hover" href=""><i class="fa fa-plus" data-toggle="collapse" href="#collapse1" class="collapsed" aria-expanded="false" aria-hidden="true"></i>01<strong>WEB</strong></a> 
