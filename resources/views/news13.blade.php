@@ -1,6 +1,7 @@
 @extends('layouts.layout')
+@section('title', 'Water water everywhere…')
 @section('content')
-<section id="blog" style="height: 4200px">
+<section id="blog">
     <div class="container1">
         <div class="left2">
             <a class="blog" href="/blog">Blog</a>
@@ -108,7 +109,7 @@
                     </div>
                 </div>
             </div>
-        <div class="right2">
+        <div class="right2 right3">
             <div class="post post12">
                 <div class="bloghead">
                     Jul 24/11
@@ -132,31 +133,31 @@
                             <p>&nbsp;</p>
                             <p>Trial Entrance</p>
                             <p>
-                                <a href=""><img src="/images/p1.jpg" alt=""></a>
+                                <a href="/images/p1.jpg"><img src="/images/p1.jpg" alt=""></a>
                             </p>
                             <p>Entrance Graphic</p>
                             <p>
-                                <a href=""><img src="/images/p2.jpg" alt=""></a>
+                                <a href="/images/p2.jpg"><img src="/images/p2.jpg" alt=""></a>
                             </p>
                             <p>Other side of the water pipe with the filtration plant to the right</p>
                             <p>
-                                <a href=""><img src="/images/p3.jpg" alt=""></a>
+                                <a href="/images/p3.jpg"><img src="/images/p3.jpg" alt=""></a>
                             </p>
                             <p>Signage close-ups below</p>
                             <p>
-                                <a href=""><img src="/images/p4.jpg" alt=""></a>
+                                <a href="/images/p4.jpg"><img src="/images/p4.jpg" alt=""></a>
                             </p>
                             <p>
-                                <a href=""><img src="/images/p5.jpg" alt=""></a>
+                                <a href="/images/p5.jpg"><img src="/images/p5.jpg" alt=""></a>
                             </p>
                             <p>
-                                <a href=""><img src="/images/p6.jpg" alt=""></a>
+                                <a href="/images/p6.jpg"><img src="/images/p6.jpg" alt=""></a>
                             </p>
                             <p>
-                                <a href=""><img src="/images/p7.jpg" alt=""></a>
+                                <a href="/images/p7.jpg"><img src="/images/p7.jpg" alt=""></a>
                             </p>
                             <p>
-                                <a href=""><img src="/images/p8.jpg" alt=""></a>
+                                <a href="/images/p8.jpg"><img src="/images/p8.jpg" alt=""></a>
                             </p>
                         </div>
                             <h5 class="data">

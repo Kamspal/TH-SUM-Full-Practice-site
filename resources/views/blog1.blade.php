@@ -1,6 +1,6 @@
 @extends('layouts.layout')
 @section('content')
-<section id="blog1" style="height: 7800px">
+<section id="blog">
     <div class="container1">
         <div class="left2">
             <a class="blog" href="/blog">Blog</a>
@@ -108,7 +108,7 @@
                     </div>
                 </div>
             </div>
-        <div class="right2" style="height: 2000px">
+        <div class="right2 right3">
             <div class="post post10">
                 <div class="bloghead">
                     Aug 23/11

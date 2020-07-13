@@ -1,6 +1,7 @@
 @extends('layouts.layout')
+@section('title', 'Dan’s Plan: Custom Web Illustrations')
 @section('content')
-<section id="blog" style="height: 1460px">
+<section id="blog">
     <div class="container1">
         <div class="left2">
             <a class="blog" href="/blog">Blog</a>
@@ -108,7 +109,7 @@
                     </div>
                 </div>
             </div>
-        <div class="right2">
+        <div class="right2 right3">
         <div class="post post8">
                     <div class="bloghead">
                         Oct 28/11
@@ -123,10 +124,10 @@
                                 for yourself and give it a try … it’s free!
                                 </p>
                                 <p>
-                                    <a href=""><img src="/images/plan1.jpg" alt=""></a>
+                                    <a href="/images/plan1.jpg"><img src="/images/plan1.jpg" alt=""></a>
                                 </p>
                                 <p>
-                                    <a href=""><img src="/images/plan2.jpg" alt=""></a>
+                                    <a href="/images/plan2.jpg"><img src="/images/plan2.jpg" alt=""></a>
                                 </p>
                             </div>
                                 <h5 class="data">

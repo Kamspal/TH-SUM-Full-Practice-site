@@ -1,17 +1,18 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN""http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" type="image/vnd.microsoft.icon" href="images/favicon.ico" />
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="HandheldFriendly" content="true">
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="/css/new.css" type="text/css">
     <link rel="stylesheet" href="/css/font-awesome.css" type="text/css">
   	<link rel="stylesheet" href="/css/slide.css" type="text/css">
-	
     
-    <title>TH = SUM - What we're up to</title>
+    <link rel="shortcut icon" href="@yield('favicon','/images/favicon.ico')"/>
+    <title>@yield('title', 'TH = SUM')</title>
+    
 </head>
 <body>
 
@@ -27,19 +28,19 @@
 			<div class="formLabel">
 				<h3>CLIENT LOGIN</h3>
 			<!-- end .formLabel --></div>
-			<div class="left">
+			<div class="left bb">
 				<!-- Login Form -->
 				<form class="clearfix">
 				<label class="grey">Username:</label>
                 <input type="username" id="username" placeholder="">
 			<!-- end .left --></div>
-            <div class="left">
+            <div class="left cc">
 				<label class="grey">Password:</label>
                 <input type="username" id="username" placeholder="">
 			<!-- end .left --></div>
 
 			
-			<div class="left">
+			<div class="left dd">
 			<button class="button1" type="button">Login</button>
 			<!-- end .left --></div>
 			     <!-- end Login Form --></form>
@@ -82,7 +83,7 @@
             @ TH= SUM 2020. All Rights Reserved <br>
             <img class="dosome" src="/images/sumthingText.gif" alt="">
         </div>
-        <div class="nav">
+        <div class="nav nav-display">
             Navigation <br>
             <a href="/home">// Home</a> <br>
             <a href="/about">// About</a> <br>
@@ -90,7 +91,7 @@
             <a href="/blog">// Blog</a> <br>
             <a href="/contact">// Contact</a> 
         </div>
-            <div class="nav">
+            <div class="nav nav-display">
                     Social <br>
                     <a href="/blog">// Blog</a> <br>
                     <a href="">// Facebook</a> <br>
@@ -109,7 +110,7 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
     <script src="/js/jquery-1.3.2.min.js" type="text/javascript"></script>
-    <script src="/js/slide.js" type="text/javascript"></script>
+
     <script>
          $(function() {
             var offset = $(".logo").offset();
@@ -134,6 +135,28 @@
         $('.nav-links a[href^="/' + location.pathname.split("")[1] + '"]').addClass('active');
     });
     
+    </script>
+
+    <script>
+        $(document).ready(function() {
+	
+            // Expand Panel
+            $("#open").click(function(){
+                $("div#panel").slideDown("slow");
+            
+            });	
+            
+            // Collapse Panel
+            $("#close").click(function(){
+                $("div#panel").slideUp("slow");	
+            });		
+            
+            // Switch buttons from "Log In | Register" to "Close Panel" on click
+            $("#toggle a").click(function () {
+                $("#toggle a").toggle();
+            });		
+                
+        });
     </script>
 
     @stack('post_scripts')

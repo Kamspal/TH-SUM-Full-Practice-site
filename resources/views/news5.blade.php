@@ -1,6 +1,7 @@
 @extends('layouts.layout')
+@section('title', 'Hastings Crossing BIA website goes LIVE')
 @section('content')
-<section id="blog" style="height: 3100px">
+<section id="blog">
     <div class="container1">
         <div class="left2">
             <a class="blog" href="/blog">Blog</a>
@@ -108,7 +109,7 @@
                     </div>
                 </div>
             </div>
-        <div class="right2">
+        <div class="right2 right3">
         <div class="post post4">
                         <div class="bloghead">
                             Oct 5/12
@@ -138,7 +139,7 @@
                                     <br>
                                     </p>
                                     <p>
-                                        <a href=""><img src="/images/a_logo.jpg" alt=""></a>
+                                        <a href="/images/a_logo.jpg"><img src="/images/a_logo.jpg" alt=""></a>
                                     </p>
                                     <p>
                                     <br>
@@ -149,16 +150,16 @@
                                     <br>
                                     </p>
                                     <p>
-                                        <a href=""><img src="/images/b1.jpg" alt=""></a>
+                                        <a href="/images/b1.jpg"><img src="/images/b1.jpg" alt=""></a>
                                     </p>
                                     <p>
-                                        <a href=""><img src="/images/c1.jpg" alt=""></a>
+                                        <a href="/images/c1.jpg"><img src="/images/c1.jpg" alt=""></a>
                                     </p>
                                     <p>
-                                        <a href=""><img src="/images/d1.jpg" alt=""></a>
+                                        <a href="/images/d1.jpg"><img src="/images/d1.jpg" alt=""></a>
                                     </p>
                                     <p>
-                                        <a href=""><img src="/images/e1.jpg" alt=""></a>
+                                        <a href="/images/e1.jpg"><img src="/images/e1.jpg" alt=""></a>
                                     </p>
                                 </div>
                                     <h5 class="data">

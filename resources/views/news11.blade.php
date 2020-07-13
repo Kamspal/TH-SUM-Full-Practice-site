@@ -1,6 +1,7 @@
 @extends('layouts.layout')
+@section('title', 'Vancouver Is Awesome: Interview with Chris Wong')
 @section('content')
-<section id="blog" style="height: 800px">
+<section id="blog">
     <div class="container1">
         <div class="left2">
             <a class="blog" href="/blog">Blog</a>
@@ -108,7 +109,7 @@
                     </div>
                 </div>
             </div>
-        <div class="right2">
+        <div class="right2 right3">
             <div class="post post10">
                 <div class="bloghead">
                     Aug 23/11
@@ -122,7 +123,7 @@
                             <a href="">Click here</a>
                             </p>
                             <p>
-                                <a href=""><img src="/images/some1.jpg" alt=""></a>
+                                <a href="/images/some1.jpg"><img src="/images/some1.jpg" alt=""></a>
                             </p>
                         </div>
                             <h5 class="data">

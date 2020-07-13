@@ -1,6 +1,7 @@
 @extends('layouts.layout')
+@section('title', 'Attendease: Event planning made easy')
 @section('content')
-<section id="blog" style="height: 3480px">
+<section id="blog">
     <div class="container1">
         <div class="left2">
             <a class="blog" href="/blog">Blog</a>
@@ -108,7 +109,7 @@
                     </div>
                 </div>
             </div>
-        <div class="right2">
+        <div class="right2 right3">
         <div class="post post1">
                     <div class="bloghead">
                         Jun 9/14

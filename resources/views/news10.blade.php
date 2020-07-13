@@ -1,6 +1,7 @@
 @extends('layouts.layout')
+@section('title', 'Sonic Tonic')
 @section('content')
-<section id="blog" style="height: 2000px">
+<section id="blog">
     <div class="container1">
         <div class="left2">
             <a class="blog" href="/blog">Blog</a>
@@ -108,7 +109,7 @@
                     </div>
                 </div>
             </div>
-        <div class="right2">
+        <div class="right2 right3">
             <div class="post post9">
                     <div class="bloghead">
                         Oct 2/11
@@ -124,13 +125,13 @@
                                 Vancouver New Music has been one of our Dream Clients for the past couple of years and here is the latest poster and brochure design for their Sonic Tonic event. That’s all we hafta say.
                                 </p>
                                 <p>
-                                    <a href=""><img src="/images/poster1.jpg" alt=""></a>
+                                    <a href="/images/poster1.jpg"><img src="/images/poster1.jpg" alt=""></a>
                                 </p>
                                 <p>
-                                    <a href=""><img src="/images/brochure.jpg" alt=""></a>
+                                    <a href="/images/brochure.jpg"><img src="/images/brochure.jpg" alt=""></a>
                                 </p>
                                 <p>
-                                    <a href=""><img src="/images/brochure_close.jpg" alt=""></a>
+                                    <a href="/images/brochure_close.jpg"><img src="/images/brochure_close.jpg" alt=""></a>
                                 </p>
                             </div>
                                 <h5 class="data">

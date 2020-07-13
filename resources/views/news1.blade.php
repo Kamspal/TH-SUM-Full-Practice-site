@@ -1,6 +1,7 @@
 @extends('layouts.layout')
+@section('title', 'BC Sports Hall of Fame: 1954 British Empire and Commonwealth Games')
 @section('content')
-<section id="blog" style="height: 5300px">
+<section id="blog">
     <div class="container1">
         <div class="left2">
             <a class="blog" href="/blog">Blog</a>
@@ -108,7 +109,7 @@
                     </div>
                 </div>
             </div>
-        <div class="right2">
+        <div class="right2 right3">
             <div class="post">
                 <div class="bloghead">
                     Nov 7/14
@@ -127,37 +128,37 @@
                                 <a href="">Video: Behind the scenes of the B.C. Sports Hall of Fame’s 1954 retrospective by The Province</a>
                             </p>
                             <p>
-                                <a href=""><img src="/images/1_bcsports.jpg" alt=""></a>
+                                <a href="/images/1_bcsports.jpg"><img src="/images/1_bcsports.jpg" alt=""></a>
                             </p>
                             <p>
-                                <a href=""><img src="/images/2_bcsports.jpg" alt=""></a>
+                                <a href="/images/2_bcsports.jpg"><img src="/images/2_bcsports.jpg" alt=""></a>
                             </p>
                             <p>
-                                <a href=""><img src="/images/3_bcsports.jpg" alt=""></a>
+                                <a href="/images/3_bcsports.jpg"><img src="/images/3_bcsports.jpg" alt=""></a>
                             </p>
                             <p>
-                                <a href=""><img src="/images/4_bcsports.jpg" alt=""></a>
+                                <a href="/images/4_bcsports.jpg"><img src="/images/4_bcsports.jpg" alt=""></a>
                             </p>
                             <p>
-                                <a href=""><img src="/images/5_bcsports.jpg" alt=""></a>
+                                <a href="/images/5_bcsports.jpg"><img src="/images/5_bcsports.jpg" alt=""></a>
                             </p>
                             <p>
-                                <a href=""><img src="/images/6_bcsports.jpg" alt=""></a>
+                                <a href="/images/6_bcsports.jpg"><img src="/images/6_bcsports.jpg" alt=""></a>
                             </p>
                             <p>
-                                <a href=""><img src="/images/7_bcsports.jpg" alt=""></a>
+                                <a href="/images/7_bcsports.jpg"><img src="/images/7_bcsports.jpg" alt=""></a>
                             </p>
                             <p>
-                                <a href=""><img src="/images/8_bcsports.jpg" alt=""></a>
+                                <a href="/images/8_bcsports.jpg"><img src="/images/8_bcsports.jpg" alt=""></a>
                             </p>
                             <p>
-                                <a href=""><img src="/images/9_bcsports.jpg" alt=""></a>
+                                <a href="/images/9_bcsports.jpg"><img src="/images/9_bcsports.jpg" alt=""></a>
                             </p>
                             <p>
-                                <a href=""><img src="/images/10_bcsports.jpg" alt=""></a>
+                                <a href="/images/10_bcsports.jpg"><img src="/images/10_bcsports.jpg" alt=""></a>
                             </p>
                             <p>
-                                <a href=""><img src="/images/11_bcsports.jpg" alt=""></a>
+                                <a href="/images/11_bcsports.jpg"><img src="/images/11_bcsports.jpg" alt=""></a>
                             </p>
                         </div>
                             <h5 class="data">

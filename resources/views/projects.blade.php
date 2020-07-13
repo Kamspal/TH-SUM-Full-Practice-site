@@ -1,6 +1,7 @@
 @extends('layouts.layout')
+@section('title', 'Projects Archive - TH= SUM')
 @section('content')
-<section id="blog1" style="height: 24500px">
+<section id="blog">
     <div class="container1">
         <div class="left2">
             <a class="blog" href="/blog">Blog</a>
@@ -109,7 +110,7 @@
                 </div>
             </div>
 
-            <div class="right2">
+            <div class="right2 right3">
                 <div class="blogTopic">
                     <h2>
                         Projects Archives
@@ -137,19 +138,19 @@
                                     <a href="">www.attendease.com</a>
                                 </p>
                                 <p>
-                                    <a href=""><img src="/images/1_brand.jpg" alt=""></a>
+                                    <a href="/images/1_brand.jpg"><img src="/images/1_brand.jpg" alt=""></a>
                                 </p>
                                 <p>
-                                    <a href=""><img src="/images/1_attendease.jpg" alt=""></a>
+                                    <a href="/images/1_attendease.jpg"><img src="/images/1_attendease.jpg" alt=""></a>
                                 </p>
                                 <p>
-                                    <a href=""><img src="/images/2_attendease.jpg" alt=""></a>
+                                    <a href="/images/2_attendease.jpg"><img src="/images/2_attendease.jpg" alt=""></a>
                                 </p>
                                 <p>
-                                    <a href=""><img src="/images/3_attendease.jpg" alt=""></a>
+                                    <a href="/images/3_attendease.jpg"><img src="/images/3_attendease.jpg" alt=""></a>
                                 </p>
                                 <p>
-                                    <a href=""><img src="/images/4_attendease.jpg" alt=""></a>
+                                    <a href="/images/4_attendease.jpg"><img src="/images/4_attendease.jpg" alt=""></a>
                                 </p>
                             </div>
                                 <h5 class="data">
@@ -180,21 +181,21 @@
                                     <p>
                                         <strong>Rendering</strong>
                                         <br>
-                                        <a href=""><img src="/images/1_render.jpg" alt=""></a>
+                                        <a href="/images/1_render.jpg"><img src="/images/1_render.jpg" alt=""></a>
                                     </p>
                                     <p>
                                     <strong>Final Build</strong>
                                         <br>
-                                        <a href=""><img src="/images/2_real.jpg" alt=""></a>
+                                        <a href="/images/2_real.jpg"><img src="/images/2_real.jpg" alt=""></a>
                                     </p>
                                     <p>
-                                        <a href=""><img src="/images/3_real.jpg" alt=""></a>
+                                        <a href="/images/3_real.jpg"><img src="/images/3_real.jpg" alt=""></a>
                                     </p>
                                     <p>
-                                        <a href=""><img src="/images/4_real.jpg" alt=""></a>
+                                        <a href="/images/4_real.jpg"><img src="/images/4_real.jpg" alt=""></a>
                                     </p>
                                     <p>
-                                        <a href=""><img src="/images/6_real.jpg" alt=""></a>
+                                        <a href="/images/6_real.jpg"><img src="/images/6_real.jpg" alt=""></a>
                                     </p>
                                 </div>
                                     <h5 class="data">
@@ -224,19 +225,19 @@
                                     <br>
                                     </p>
                                     <p>
-                                        <a href=""><img src="/images/jukepop_logo.jpg" alt=""></a>
+                                        <a href="/images/jukepop_logo.jpg"><img src="/images/jukepop_logo.jpg" alt=""></a>
                                     </p>
                                     <p>
                                         <br>
                                     </p>
                                     <p>
-                                        <a href=""><img src="/images/jukepop5.jpg" alt=""></a>
+                                        <a href="/images/jukepop5.jpg"><img src="/images/jukepop5.jpg" alt=""></a>
                                     </p>
                                     <p>
-                                        <a href=""><img src="/images/jukepop6.jpg" alt=""></a>
+                                        <a href="/images/jukepop6.jpg"><img src="/images/jukepop6.jpg" alt=""></a>
                                     </p>
                                     <p>
-                                        <a href=""><img src="/images/jukepop7.jpg" alt=""></a>
+                                        <a href="/images/jukepop7.jpg"><img src="/images/jukepop7.jpg" alt=""></a>
                                     </p>
                                 </div>
                                     <h5 class="data">
@@ -272,7 +273,7 @@
                                     <br>
                                     </p>
                                     <p>
-                                        <a href=""><img src="/images/a_logo.jpg" alt=""></a>
+                                        <a href="/images/a_logo.jpg"><img src="/images/a_logo.jpg" alt=""></a>
                                     </p>
                                     <p>
                                     <br>
@@ -283,16 +284,16 @@
                                     <br>
                                     </p>
                                     <p>
-                                        <a href=""><img src="/images/b1.jpg" alt=""></a>
+                                        <a href="/images/b1.jpg"><img src="/images/b1.jpg" alt=""></a>
                                     </p>
                                     <p>
-                                        <a href=""><img src="/images/c1.jpg" alt=""></a>
+                                        <a href="/images/c1.jpg"><img src="/images/c1.jpg" alt=""></a>
                                     </p>
                                     <p>
-                                        <a href=""><img src="/images/d1.jpg" alt=""></a>
+                                        <a href="/images/d1.jpg"><img src="/images/d1.jpg" alt=""></a>
                                     </p>
                                     <p>
-                                        <a href=""><img src="/images/e1.jpg" alt=""></a>
+                                        <a href="/images/e1.jpg"><img src="/images/e1.jpg" alt=""></a>
                                     </p>
                                 </div>
                                     <h5 class="data">
@@ -314,10 +315,10 @@
                                 The Sum was contacted by Icebreaker’s Vancouver headquarters to help re-design their current staff retail home page and update the visuals within the site. The objective: Design a home page with a clear navigational direction, which would either encourage new staff to take an online training course or guide trained staff into their retail section where they could find great deals and promotions.
                                 </p>
                                 <p>
-                                    <a href=""><img src="/images/4_icebreaker1.jpg" alt=""></a>
+                                    <a href="/images/4_icebreaker1.jpg"><img src="/images/4_icebreaker1.jpg" alt=""></a>
                                 </p>
                                 <p>
-                                    <a href=""><img src="/images/4_icebreaker2.jpg" alt=""></a>
+                                    <a href="/images/4_icebreaker2.jpg"><img src="/images/4_icebreaker2.jpg" alt=""></a>
                                 </p>
                             </div>
                                 <h5 class="data">
@@ -341,10 +342,10 @@
                                 <a href="">Click here</a> to check it out!
                                 </p>
                                 <p>
-                                    <a href=""><img src="/images/3_S1.jpg" alt=""></a>
+                                    <a href="/images/3_S1.jpg"><img src="/images/3_S1.jpg" alt=""></a>
                                 </p>
                                 <p>
-                                    <a href=""><img src="/images/3_S2.jpg" alt=""></a>
+                                    <a href="/images/3_S2.jpg"><img src="/images/3_S2.jpg" alt=""></a>
                                 </p>
                             </div>
                                 <h5 class="data">
@@ -366,10 +367,10 @@
                                 for yourself and give it a try … it’s free!
                                 </p>
                                 <p>
-                                    <a href=""><img src="/images/plan1.jpg" alt=""></a>
+                                    <a href="/images/plan1.jpg"><img src="/images/plan1.jpg" alt=""></a>
                                 </p>
                                 <p>
-                                    <a href=""><img src="/images/plan2.jpg" alt=""></a>
+                                    <a href="/images/plan2.jpg"><img src="/images/plan2.jpg" alt=""></a>
                                 </p>
                             </div>
                                 <h5 class="data">
@@ -392,13 +393,13 @@
                                 Vancouver New Music has been one of our Dream Clients for the past couple of years and here is the latest poster and brochure design for their Sonic Tonic event. That’s all we hafta say.
                                 </p>
                                 <p>
-                                    <a href=""><img src="/images/poster1.jpg" alt=""></a>
+                                    <a href="/images/poster1.jpg"><img src="/images/poster1.jpg" alt=""></a>
                                 </p>
                                 <p>
-                                    <a href=""><img src="/images/brochure.jpg" alt=""></a>
+                                    <a href="/images/brochure.jpg"><img src="/images/brochure.jpg" alt=""></a>
                                 </p>
                                 <p>
-                                    <a href=""><img src="/images/brochure_close.jpg" alt=""></a>
+                                    <a href="/images/brochure_close.jpg"><img src="/images/brochure_close.jpg" alt=""></a>
                                 </p>
                             </div>
                                 <h5 class="data">
@@ -429,10 +430,10 @@
                             </p>
                             <p>&nbsp;</p>
                             <p>
-                                <a href=""><img src="/images/aqua1.jpg" alt=""></a>
+                                <a href="/images/aqua1.jpg"><img src="/images/aqua1.jpg" alt=""></a>
                             </p>
                             <p>
-                                <a href=""><img src="/images/aqua2.jpg" alt=""></a>
+                                <a href="/images/aqua2.jpg"><img src="/images/aqua2.jpg" alt=""></a>
                             </p>
                         </div>
                             <h5 class="data">
@@ -463,31 +464,31 @@
                             <p>&nbsp;</p>
                             <p>Trial Entrance</p>
                             <p>
-                                <a href=""><img src="/images/p1.jpg" alt=""></a>
+                                <a href="/images/p1.jpg"><img src="/images/p1.jpg" alt=""></a>
                             </p>
                             <p>Entrance Graphic</p>
                             <p>
-                                <a href=""><img src="/images/p2.jpg" alt=""></a>
+                                <a href="/images/p2.jpg"><img src="/images/p2.jpg" alt=""></a>
                             </p>
                             <p>Other side of the water pipe with the filtration plant to the right</p>
                             <p>
-                                <a href=""><img src="/images/p3.jpg" alt=""></a>
+                                <a href="/images/p3.jpg"><img src="/images/p3.jpg" alt=""></a>
                             </p>
                             <p>Signage close-ups below</p>
                             <p>
-                                <a href=""><img src="/images/p4.jpg" alt=""></a>
+                                <a href="/images/p4.jpg"><img src="/images/p4.jpg" alt=""></a>
                             </p>
                             <p>
-                                <a href=""><img src="/images/p5.jpg" alt=""></a>
+                                <a href="/images/p5.jpg"><img src="/images/p5.jpg" alt=""></a>
                             </p>
                             <p>
-                                <a href=""><img src="/images/p6.jpg" alt=""></a>
+                                <a href="/images/p6.jpg"><img src="/images/p6.jpg" alt=""></a>
                             </p>
                             <p>
-                                <a href=""><img src="/images/p7.jpg" alt=""></a>
+                                <a href="/images/p7.jpg"><img src="/images/p7.jpg" alt=""></a>
                             </p>
                             <p>
-                                <a href=""><img src="/images/p8.jpg" alt=""></a>
+                                <a href="/images/p8.jpg"><img src="/images/p8.jpg" alt=""></a>
                             </p>
                         </div>
                             <h5 class="data">

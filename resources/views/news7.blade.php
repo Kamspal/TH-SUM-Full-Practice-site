@@ -1,7 +1,7 @@
-
 @extends('layouts.layout')
+@section('title', 'Icebreaker Merino Wool: Staff Retail Site')
 @section('content')
-<section id="blog" style="height: 1480px">
+<section id="blog">
     <div class="container1">
         <div class="left2">
             <a class="blog" href="/blog">Blog</a>
@@ -109,7 +109,7 @@
                     </div>
                 </div>
             </div>
-        <div class="right2">
+        <div class="right2 right3">
             <div class="post post6">
                     <div class="bloghead">
                         Jan 17/12
@@ -125,10 +125,10 @@
                                 The Sum was contacted by Icebreaker’s Vancouver headquarters to help re-design their current staff retail home page and update the visuals within the site. The objective: Design a home page with a clear navigational direction, which would either encourage new staff to take an online training course or guide trained staff into their retail section where they could find great deals and promotions.
                                 </p>
                                 <p>
-                                    <a href=""><img src="/images/4_icebreaker1.jpg" alt=""></a>
+                                    <a href="/images/4_icebreaker1.jpg"><img src="/images/4_icebreaker1.jpg" alt=""></a>
                                 </p>
                                 <p>
-                                    <a href=""><img src="/images/4_icebreaker2.jpg" alt=""></a>
+                                    <a href="/images/4_icebreaker2.jpg"><img src="/images/4_icebreaker2.jpg" alt=""></a>
                                 </p>
                             </div>
                                 <h5 class="data">

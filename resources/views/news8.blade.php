@@ -1,7 +1,7 @@
-
 @extends('layouts.layout')
+@section('title', 'Spencer Welch Vocal Studio Gets a Fresh, New Look')
 @section('content')
-<section id="blog" style="height: 1560px">
+<section id="blog">
     <div class="container1">
         <div class="left2">
             <a class="blog" href="/blog">Blog</a>
@@ -109,7 +109,7 @@
                     </div>
                 </div>
             </div>
-        <div class="right2">
+        <div class="right2 right3">
             <div class="post post7">
                     <div class="bloghead">
                         Dec 22/11
@@ -126,10 +126,10 @@
                                 <a href="">Click here</a> to check it out!
                                 </p>
                                 <p>
-                                    <a href=""><img src="/images/3_S1.jpg" alt=""></a>
+                                    <a href="/images/3_S1.jpg"><img src="/images/3_S1.jpg" alt=""></a>
                                 </p>
                                 <p>
-                                    <a href=""><img src="/images/3_S2.jpg" alt=""></a>
+                                    <a href="/images/3_S2.jpg"><img src="/images/3_S2.jpg" alt=""></a>
                                 </p>
                             </div>
                                 <h5 class="data">
