@@ -1,8 +1,9 @@
 
 
 @extends('layouts.layout')
+@section('title', 'About')
 @section('content')
-<section id="about" style="height: 650px">
+<section id="about">
     <div class="about-image">
         <img src="images/chrisAndVal.jpg" alt="">
     </div>

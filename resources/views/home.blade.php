@@ -4,7 +4,9 @@
  <div class="wrapper">
                     <div class="left">
                         <h3>We're good.</h3>
-                        <p>Just ask <span>our moms.</span></p>
+                        <p>Just ask <br>
+                            our moms.
+                        </p>
                         <h5>
                             web + interactive + branding + print + sinage. It's what we love to do. So relax, we've got this.
                         </h5>

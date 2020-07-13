@@ -1,6 +1,7 @@
 @extends('layouts.layout')
+@section('title', 'Stuff We Like Archive - TH= SUM')
 @section('content')
-<section id="blog" style="height: 3600px">
+<section id="blog">
     <div class="container1">
         <div class="left2">
             <a class="blog" href="/blog">Blog</a>
@@ -108,7 +109,7 @@
                     </div>
                 </div>
             </div>
-        <div class="right2">
+        <div class="right2 right3">
             <div class="blogTopic">
                 <h2>
                     Stuff We Like Archives
@@ -134,13 +135,13 @@
                                     <strong>Sexy Caran D’Ache Red Metal Pen and Stick-Up Weekly Calendar</strong>
                                 </p>
                                 <p>
-                                    <a href=""><img src="/images/2_swiss_miss.jpg" alt=""></a>
+                                    <a href="/images/2_swiss_miss.jpg"><img src="/images/2_swiss_miss.jpg" alt=""></a>
                                 </p>
                                 <p>
-                                    <a href=""><img src="/images/pen2.png" alt=""></a>
+                                    <a href="/images/pen2.png"><img src="/images/pen2.png" alt=""></a>
                                 </p>
                                 <p>
-                                    <a href=""><img src="/images/1_swiss_miss.jpg" alt=""></a>
+                                    <a href="/images/1_swiss_miss.jpg"><img src="/images/1_swiss_miss.jpg" alt=""></a>
                                 </p>
                                 <p>
                                     <br>
@@ -152,10 +153,10 @@
                                     <strong>Crania Anatomica created exclusively for Quarterly.co by Chicago sculptor Joshua Harker</strong>
                                 </p>
                                 <p>
-                                    <a href=""><img src="/images/3_skull.jpg" alt=""></a>
+                                    <a href="/images/3_skull.jpg"><img src="/images/3_skull.jpg" alt=""></a>
                                 </p>
                                 <p>
-                                    <a href=""><img src="/images/4_skull.jpg" alt=""></a>
+                                    <a href="/images/4_skull.jpg"><img src="/images/4_skull.jpg" alt=""></a>
                                 </p>
                                 <p>
                                     <br>
@@ -167,10 +168,10 @@
                                     <strong> Bucky Balls (moldable magnetic beads) for creative brain breaks </strong>
                                 </p>
                                 <p>
-                                    <a href=""><img src="/images/6_buckyballs.jpg" alt=""></a>
+                                    <a href="/images/6_buckyballs.jpg"><img src="/images/6_buckyballs.jpg" alt=""></a>
                                 </p>
                                 <p>
-                                    <a href=""><img src="/images/8_buckyballs.jpg" alt=""></a>
+                                    <a href="/images/8_buckyballs.jpg"><img src="/images/8_buckyballs.jpg" alt=""></a>
                                 </p>
                             </div>
                                 <h5 class="data">

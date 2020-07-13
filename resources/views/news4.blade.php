@@ -1,6 +1,7 @@
 @extends('layouts.layout')
+@section('title', 'JukePop Serials: For lovers of genre fiction')
 @section('content')
-<section id="blog" style="height: 2880px">
+<section id="blog">
     <div class="container1">
         <div class="left2">
             <a class="blog" href="/blog">Blog</a>
@@ -108,7 +109,7 @@
                     </div>
                 </div>
             </div>
-        <div class="right2">
+        <div class="right2 right3">
         <div class="post post3">
                         <div class="bloghead">
                             April 4/13
@@ -131,19 +132,19 @@
                                     <br>
                                     </p>
                                     <p>
-                                        <a href=""><img src="/images/jukepop_logo.jpg" alt=""></a>
+                                        <a href="/images/jukepop_logo.jpg"><img src="/images/jukepop_logo.jpg" alt=""></a>
                                     </p>
                                     <p>
                                         <br>
                                     </p>
                                     <p>
-                                        <a href=""><img src="/images/jukepop5.jpg" alt=""></a>
+                                        <a href="/images/jukepop5.jpg"><img src="/images/jukepop5.jpg" alt=""></a>
                                     </p>
                                     <p>
-                                        <a href=""><img src="/images/jukepop6.jpg" alt=""></a>
+                                        <a href="/images/jukepop6.jpg"><img src="/images/jukepop6.jpg" alt=""></a>
                                     </p>
                                     <p>
-                                        <a href=""><img src="/images/jukepop7.jpg" alt=""></a>
+                                        <a href="/images/jukepop7.jpg"><img src="/images/jukepop7.jpg" alt=""></a>
                                     </p>
                                 </div>
                                     <h5 class="data">

@@ -1,12 +1,13 @@
 @extends('layouts.layout')
+@section('title', 'Contact')
 @section('content')
-<section id="contact" style="height: 800px">
-    <div class="container1">
+<section id="contact" style="padding-bottom: 800px">
+    <div class="container1 margin-left00">
         <div class="left2 left3">
             <a class="contact1" href="/contact">Contact</a>
         </div>
             <div class="right2">
-                <div class="leftside">
+                <div class="leftside left-margin">
                     <img src="/images/icon_phone.jpg" alt="">
                         <div class="text123">
                             tel: +1 604 765 8831

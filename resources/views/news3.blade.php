@@ -1,6 +1,7 @@
 @extends('layouts.layout')
+@section('title', 'Larry Berg – Flight Path Park')
 @section('content')
-<section id="blog" style="height: 2750px">
+<section id="blog">
     <div class="container1">
         <div class="left2">
             <a class="blog" href="/blog">Blog</a>
@@ -108,7 +109,7 @@
                     </div>
                 </div>
             </div>
-        <div class="right2">
+        <div class="right2 right3">
         <div class="post post2">
                         <div class="bloghead">
                             Nov 7/13
@@ -133,21 +134,21 @@
                                     <p>
                                         <strong>Rendering</strong>
                                         <br>
-                                        <a href=""><img src="/images/1_render.jpg" alt=""></a>
+                                        <a href="/images/1_render.jpg"><img src="/images/1_render.jpg" alt=""></a>
                                     </p>
                                     <p>
                                     <strong>Final Build</strong>
                                         <br>
-                                        <a href=""><img src="/images/2_real.jpg" alt=""></a>
+                                        <a href="/images/2_real.jpg"><img src="/images/2_real.jpg" alt=""></a>
                                     </p>
                                     <p>
-                                        <a href=""><img src="/images/3_real.jpg" alt=""></a>
+                                        <a href="/images/3_real.jpg"><img src="/images/3_real.jpg" alt=""></a>
                                     </p>
                                     <p>
-                                        <a href=""><img src="/images/4_real.jpg" alt=""></a>
+                                        <a href="/images/4_real.jpg"><img src="/images/4_real.jpg" alt=""></a>
                                     </p>
                                     <p>
-                                        <a href=""><img src="/images/6_real.jpg" alt=""></a>
+                                        <a href="/images/6_real.jpg"><img src="/images/6_real.jpg" alt=""></a>
                                     </p>
                                 </div>
                                     <h5 class="data">

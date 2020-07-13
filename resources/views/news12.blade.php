@@ -1,6 +1,7 @@
 @extends('layouts.layout')
+@section('title', 'San Francisco Aquarium of the Bay')
 @section('content')
-<section id="blog" style="height: 1600px">
+<section id="blog">
     <div class="container1">
         <div class="left2">
             <a class="blog" href="/blog">Blog</a>
@@ -108,7 +109,7 @@
                     </div>
                 </div>
             </div>
-        <div class="right2">
+        <div class="right2 right3">
             <div class="post post11">
                 <div class="bloghead">
                     Jul 31/11
@@ -132,10 +133,10 @@
                             </p>
                             <p>&nbsp;</p>
                             <p>
-                                <a href=""><img src="/images/aqua1.jpg" alt=""></a>
+                                <a href="/images/aqua1.jpg"><img src="/images/aqua1.jpg" alt=""></a>
                             </p>
                             <p>
-                                <a href=""><img src="/images/aqua2.jpg" alt=""></a>
+                                <a href="/images/aqua2.jpg"><img src="/images/aqua2.jpg" alt=""></a>
                             </p>
                         </div>
                             <h5 class="data">
